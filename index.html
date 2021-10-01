@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form CTD bootcamp</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="container">
-        
         <br>
         <br>
-        <h1>
-            Github user
 
+        <h1>
+            Ingressar no github Turma 2
         </h1>
-        <form action="" id="myForm" autocomplete="off">
-            <div class="form-group">
-                <input type="text" class="form-control" name="" id="search" placeholder="Digite seu nickname do GITHUB" required>
+
+        <h3>Durante a semana, do dia 04 ao dia 08, iremos desenvolver um projeto para praticar github e adicionar ao nosso portifólio.</h3>
+
+        <div class="col-md-5 col-lg-4 order-md-last" id="cont">
+
+            <form action="" id="myForm" autocomplete="off">
+                <textarea name="comentary" class="form-control" id="" cols="10" rows="5"  style="resize: none" placeholder="Opcional: Deixe sua sugestão de projeto"></textarea>
+
+                <hr>
+
+                <input type="text" class="form-control" name="" id="search" placeholder="Digite seu nickname do GITHUB"
+                    required>
                 <div class="form-group">
-                    <button class="btn btn-danger btn block">
+                    <button class="btn btn-secondary" id="userBtn">
                         Procurar
                     </button>
                 </div>
-            </div>
-        </form>
-        <div id="result">
-            
+                
+                <div id="result" class=" avatar">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="" srcset="">
+                </div>
+                <br>
+                <br>
+                
+                
+                <button class="w-100 btn btn-primary btn-lg" type="submit" id="submit">Confirmar meu usuário</button>
+            </form>
+
         </div>
+
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
